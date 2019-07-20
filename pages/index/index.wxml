@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <text>baseCode</text>
+  <message></message>
+</view>

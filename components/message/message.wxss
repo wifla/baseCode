@@ -1,0 +1,43 @@
+/* components/message/message.wxss */
+.message-container{
+  width: 750rpx;
+  min-height: 360rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50rpx;
+  padding: 15rpx 0 30rpx 0;
+  
+}
+.card{
+  width: 650rpx;
+  min-height: 300rpx;
+  
+  border-radius: 20rpx;
+  
+  
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  justify-content: center;
+  
+}
+.card-title{
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-top: 15rpx;
+  text-align: center;
+}
+.card-content{
+  width: 550rpx;
+  margin: 40rpx 50rpx 20rpx 50rpx;
+}
+.card-info{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin: 0 50rpx 15rpx 0;
+}
