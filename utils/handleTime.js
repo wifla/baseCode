@@ -1,4 +1,4 @@
-function handleTime(postTime) {
+ const  handleTime = postTime => {
   // 拿到当前时间戳和发布时的时间戳，然后得出时间戳差
   var currentTime = new Date();
   var postTime = new Date(postTime);
@@ -32,6 +32,7 @@ function handleTime(postTime) {
   }
 }
 
-module.exports = {
-  handleTime: handleTime
-}
+// module.exports = {
+//   handleTime: handleTime
+// }
+export {handleTime}

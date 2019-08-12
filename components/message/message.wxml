@@ -1,11 +1,11 @@
 <!--components/message/message.wxml-->
 <view class='message-container' style='border-bottom:1rpx solid {{shadowColor}};'>
   <view class='card' style='background: {{cardBg}};color: {{fontColor}};box-shadow:0 0  8rpx 8rpx {{shadowColor}};'>
-    <view class='card-title'>{{detail.Title}}</view>
-    <view class='card-content'>{{detail.Content}}</view>
+    <view class='card-title'>{{detail.title}}</view>
+    <view class='card-content'>{{detail.content}}</view>
     <view class='card-info'>
-      <view class='card-author'>{{detail.Author}}</view>
-      <view class='card-time'>{{detail.Time}}</view>
+      <view class='card-author'>{{detail.author}}</view>
+      <view class='card-time'>1{{detail.time}}</view>
     </view>
   </view>
 </view>

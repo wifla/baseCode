@@ -2,4 +2,5 @@
 <view class="container">
   <text>baseCode</text>
   <message></message>
+  <popup wx:if="{{showPopup}}" bind:popupCancel="popupCancel" bind:popupConfirm="popupConfirm"></popup>
 </view>

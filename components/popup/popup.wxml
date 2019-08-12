@@ -1,0 +1,12 @@
+<!--components/popup/popup.wxml-->
+<view class="wx-popup">
+  <view class="popup-container">
+    <view class="popup-title">{{detail.title}}</view>
+    <view class="popup-content">{{detail.content}}</view>
+    <view class="popup-button">
+      <view class="popup-cancel" bindtap="cancel">取消</view>
+      <view class="popup-confirm" bindtap="confirm">确定</view>
+    </view>
+    
+  </view>
+</view>

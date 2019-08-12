@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "message": "/components/message/message"
+    "message": "/components/message/message",
+    "popup": "/components/popup/popup"
   }
 }
