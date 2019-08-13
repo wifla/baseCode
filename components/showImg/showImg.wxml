@@ -1,0 +1,4 @@
+<!--components/showImg/showImg.wxml-->
+<view class="img-block">
+  <image src="{{imgSrc}}" mode="aspectFit"></image>
+</view>

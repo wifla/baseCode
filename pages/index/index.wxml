@@ -4,4 +4,5 @@
   <message></message>
   <popup wx:if="{{showPopup}}" bind:popupCancel="popupCancel" bind:popupConfirm="popupConfirm"></popup>
   <view class="show-button" bindtap="showPopup">显示弹窗</view>
+  <show-img imgSrc="{{imgSrc}}"></show-img>
 </view>

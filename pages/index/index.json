@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "message": "/components/message/message",
-    "popup": "/components/popup/popup"
+    "popup": "/components/popup/popup",
+    "show-img": "/components/showImg/showImg"
   }
 }
