@@ -19,3 +19,13 @@
 .usermotto {
   margin-top: 200px;
 }
+.show-button{
+  width: 240rpx;
+  height: 66rpx;
+  text-align: center;
+  line-height: 66rpx;
+  background: #44b549;
+  color: #fff;
+  font-size: 28rpx;
+
+}
