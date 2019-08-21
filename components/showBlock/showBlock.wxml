@@ -1,0 +1,6 @@
+<!--components/message/message.wxml-->
+<view class='show-container' style='border-bottom:1rpx solid {{shadowColor}};border-top:1rpx solid {{shadowColor}};'>
+  <view class='show' style='background: {{showBg}};color: {{fontColor}};box-shadow:0 0  8rpx 8rpx {{shadowColor}};'>
+    <slot name="img-method"></slot>
+  </view>
+</view>

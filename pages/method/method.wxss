@@ -1,0 +1,21 @@
+/* pages/method/method.wxss */
+.show-title{
+  font-size: 36rpx;
+  font-weight: bold;
+  margin-top: 15rpx;
+  text-align: center;
+}
+.show-content{
+  width: 100%;
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.show-info{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin: 0 50rpx 15rpx 0;
+}

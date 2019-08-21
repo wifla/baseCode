@@ -1,0 +1,15 @@
+<!--pages/method/method.wxml-->
+<show-block>
+  <view slot="img-method">
+    <view class='show-title'>{{info.title}}</view>
+    <view class='show-content'>
+      <block wx:for="{{info.imgSrc}}">
+        <show-img imgSrc="{{item}}"></show-img>
+      </block>
+    </view>
+    <view class='show-info'>
+      <view class='show-author'>{{info.author}}</view>
+      <view class='show-time'>{{info.time}}</view>
+    </view>
+  </view>
+</show-block>
