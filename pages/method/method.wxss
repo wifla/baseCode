@@ -19,3 +19,30 @@
   text-align: right;
   margin: 0 50rpx 15rpx 0;
 }
+.area-picker{
+  width: 100%;
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.area-content{
+  width: 100%;
+  min-height: 50rpx;
+}
+.popup-button{
+  width: 240rpx;
+  height: 66rpx;
+  text-align: center;
+  line-height: 66rpx;
+  background: rgb(68, 181, 73);
+  border-radius: 15rpx;
+  color: #fff;
+  font-size: 28rpx;
+}
+.popup-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,11 +1,33 @@
 <!--pages/method/method.wxml-->
 <show-block>
-  <view slot="img-method">
+  <view slot="outside">
     <view class='show-title'>{{info.title}}</view>
     <view class='show-content'>
       <block wx:for="{{info.imgSrc}}">
         <show-img imgSrc="{{item}}"></show-img>
       </block>
+    </view>
+    <view class='show-info'>
+      <view class='show-author'>{{info.author}}</view>
+      <view class='show-time'>{{info.time}}</view>
+    </view>
+  </view>
+</show-block>
+<show-block showBg="rgba(68, 181, 73,0.2)" fontColor="rgb(68, 181, 73)" shadowColor="rgba(68, 181, 73,0.5)">
+  <view slot="outside" class="popup-center">
+    <popup wx:if="{{showPopup}}" bind:popupCancel="popupCancel" bind:popupConfirm="popupConfirm"></popup>
+    <view class="popup-button" bindtap="showPopup">显示弹窗</view>
+  </view>
+</show-block>
+<show-block showBg="rgba(18, 150, 219,0.2)" fontColor="rgb(18, 150, 219)" shadowColor="rgba(18, 150, 219,0.5)">
+  <view slot="outside">
+    <view class='show-title'>{{info.areaTitle}}</view>
+    <view class='show-content'>
+      <picker class="area-picker" mode="region" value="areaSelect" bindchange="bindRegionChange">
+        <view class="area-content">
+          地区代码：{{areaCode}}
+        </view>
+      </picker>
     </view>
     <view class='show-info'>
       <view class='show-author'>{{info.author}}</view>

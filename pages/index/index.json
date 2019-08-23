@@ -1,7 +1,7 @@
 {
+  "navigationBarTitleText": "baseCode",
   "usingComponents": {
     "message": "/components/message/message",
-    "popup": "/components/popup/popup",
-    "show-img": "/components/showImg/showImg"
+    "notice": "/components/notice/notice"
   }
 }

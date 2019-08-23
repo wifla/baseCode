@@ -1,8 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-  <text>baseCode</text>
-  <message></message>
-  <popup wx:if="{{showPopup}}" bind:popupCancel="popupCancel" bind:popupConfirm="popupConfirm"></popup>
-  <view class="show-button" bindtap="showPopup">显示弹窗</view>
+  <notice noticeConfig="{{noticeConfig}}"></notice>
   
 </view>

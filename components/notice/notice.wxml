@@ -1,0 +1,8 @@
+<view class='notice-container'>
+  <view class='notice-line'>
+    <view class="notice-content" style="left:{{noticeConfig.marqueeDistance}}px;">
+      {{noticeConfig.notice}}
+    </view>
+  </view>
+  <!-- <image bindtap='switchNotice' src='../../images/close-white.png' class="notice-icon"></image> -->
+</view>
