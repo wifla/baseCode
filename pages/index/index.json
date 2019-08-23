@@ -2,6 +2,8 @@
   "navigationBarTitleText": "baseCode",
   "usingComponents": {
     "message": "/components/message/message",
-    "notice": "/components/notice/notice"
+    "notice": "/components/notice/notice",
+    "show-block": "/components/showBlock/showBlock",
+    "calendar": "plugin://calendar/calendar"
   }
 }

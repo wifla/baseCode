@@ -4,3 +4,12 @@
   flex-direction: column;
   align-items: center;
 }
+.calendar{
+  padding-top:15rpx;
+}
+.calendar-header{
+  font-weight: bold;
+}
+.calendar-board{
+  
+}

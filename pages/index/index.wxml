@@ -1,5 +1,10 @@
 <!--index.wxml-->
 <view class="container">
   <notice noticeConfig="{{noticeConfig}}"></notice>
+  <show-block showBg="rgba(18, 150, 219,0.2)" fontColor="rgb(18, 150, 219)" shadowColor="rgba(18, 150, 219,0.5)">
+  <view slot="outside">
+    <calendar calendar-style="calendar" header-style="calendar-header" board-style="calendar-board" days-color="{{daysArr}}" weeks-type ="cn"/>
+  </view>
+</show-block>
   
 </view>
