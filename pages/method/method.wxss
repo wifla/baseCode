@@ -1,48 +1,27 @@
 /* pages/method/method.wxss */
-.show-title{
-  font-size: 36rpx;
-  font-weight: bold;
-  margin-top: 15rpx;
-  text-align: center;
-}
-.show-content{
-  width: 100%;
-  margin-top: 50rpx;
+.method-list{
+  width: 750rpx;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  align-content: flex-start;
+  /* align-items: center; */
 }
-.show-info{
+.method-block{
   display: flex;
   flex-direction: column;
-  text-align: right;
-  margin: 0 50rpx 15rpx 0;
-}
-.area-picker{
-  width: 100%;
-  margin-top: 50rpx;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-.area-content{
-  width: 100%;
-  min-height: 50rpx;
-}
-.popup-button{
-  width: 240rpx;
-  height: 66rpx;
-  text-align: center;
-  line-height: 66rpx;
-  background: rgb(68, 181, 73);
-  border-radius: 15rpx;
-  color: #fff;
-  font-size: 28rpx;
-}
-.popup-center{
-  display: flex;
   justify-content: center;
   align-items: center;
+  width: 25%;
+  height: 200rpx;
+}
+.method-block image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.method-block text{
+  font-size: 26rpx;
+  color: #4d4d4d;
+  margin-top: 10rpx;
 }

@@ -1,10 +1,21 @@
 <!--index.wxml-->
 <view class="container">
-  <notice noticeConfig="{{noticeConfig}}"></notice>
-  <show-block showBg="rgba(18, 150, 219,0.2)" fontColor="rgb(18, 150, 219)" shadowColor="rgba(18, 150, 219,0.5)">
-  <view slot="outside">
-    <calendar calendar-style="calendar" header-style="calendar-header" board-style="calendar-board" days-color="{{daysArr}}" weeks-type ="cn"/>
+  <view class="author-image"></view>
+  <view class="author-block">
+    <view class="header-image"></view>
+    <text class="author-name">许纬东</text>
+    <text class="author-job">Web前端开发</text>
+    <view class="info-block">
+      <image src="../../images/icons/icon-home.png" class="info-icon"></image>
+      <text>中移互联网有限公司</text>
+    </view>
+    <view class="info-block">
+      <image src="../../images/icons/icon-phone.png" class="info-icon"></image>
+      <text>198 0202 1474</text>
+    </view>
+    <view class="info-block">
+      <image src="../../images/icons/icon-company.png" class="info-icon"></image>
+      <text>广州市天河区高唐路中国移动南方基地</text>
+    </view>
   </view>
-</show-block>
-  
 </view>

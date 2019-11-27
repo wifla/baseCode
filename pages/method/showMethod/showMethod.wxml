@@ -1,0 +1,49 @@
+<view class="show-container">
+  <show-block wx:if="{{showMethod == 0}}">
+    <view slot="outside">
+      <view class='show-title'>{{info.title}}</view>
+      <view class='show-content'>
+        <block wx:for="{{info.imgSrc}}" wx:key="{{index}}">
+          <show-img imgSrc="{{item}}"></show-img>
+        </block>
+      </view>
+      <view class='show-info'>
+        <view class='show-author'>{{info.author}}</view>
+        <view class='show-time'>{{info.time}}</view>
+      </view>
+    </view>
+  </show-block>
+  <show-block wx:if="{{showMethod == 1}}" showBg="rgba(68, 181, 73,0.2)" fontColor="rgb(68, 181, 73)" shadowColor="rgba(68, 181, 73,0.5)">
+    <view slot="outside" class="popup-center">
+      <popup wx:if="{{showPopup}}" bind:popupCancel="popupCancel" bind:popupConfirm="popupConfirm"></popup>
+      <view class="popup-button" bindtap="showPopup">显示弹窗</view>
+    </view>
+  </show-block>
+  <show-block wx:if="{{showMethod == 2}}" showBg="rgba(18, 150, 219,0.2)" fontColor="rgb(18, 150, 219)" shadowColor="rgba(18, 150, 219,0.5)">
+    <view slot="outside">
+      <view class='show-title'>{{info.areaTitle}}</view>
+      <view class='show-content'>
+        <picker class="area-picker" mode="region" value="areaSelect" bindchange="bindRegionChange">
+          <view class="area-content">
+            地区代码：{{areaCode}}
+          </view>
+        </picker>
+      </view>
+      <view class='show-info'>
+        <view class='show-author'>{{info.author}}</view>
+        <view class='show-time'>{{info.time}}</view>
+      </view>
+    </view>
+  </show-block>
+  <show-block wx:if="{{showMethod == 3}}" showBg="rgba(235, 75, 223,0.2)" fontColor="rgb(235, 75, 223)" shadowColor="rgba(235, 75, 223,0.5)">
+    <view slot="outside" class="full-block">
+      <watch></watch>
+    </view>
+  </show-block>
+  <show-block wx:if="{{showMethod == 4}}" showBg="rgba(18, 150, 219,0.2)" fontColor="rgb(18, 150, 219)" shadowColor="rgba(18, 150, 219,0.5)">
+    <view slot="outside">
+      <calendar calendar-style="calendar" header-style="calendar-header" board-style="calendar-board" days-color="{{daysArr}}" weeks-type="cn" />
+    </view>
+  </show-block>
+  <notice wx:if="{{showMethod == 5}}" noticeConfig="{{noticeConfig}}"></notice>
+</view>

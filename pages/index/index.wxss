@@ -1,15 +1,58 @@
 /**index.wxss**/
-.userinfo {
+.author-image{
+  width: 750rpx;
+  height: 800rpx;
+  background: url(https://6261-base-code-1300787518.tcb.qcloud.la/author-image.png?sign=ee85947c5e6b855dce680eee3b212994&t=1574841354) no-repeat center -100rpx;
+  background-size: 100%;
+  filter: blur(1)
+}
+.author-block{
+  width: 630rpx;
+  height: 400rpx;
+  background: #fff;
+  position: absolute;
+  top: 600rpx;
+  left: 30rpx;
+  border-radius: 10rpx;
+  box-shadow:0px 5px 20px 0px rgba(147,147,147,0.1);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 60rpx;
 }
-.calendar{
-  padding-top:15rpx;
-}
-.calendar-header{
+.author-name{
+  font-size: 40rpx;
   font-weight: bold;
+  margin-top: 40rpx
 }
-.calendar-board{
-  
+.author-job{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-top: 10rpx;
+  margin-bottom: 40rpx;
+}
+.info-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #cdcdcd;
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+}
+.info-block image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.header-image{
+  width: 120rpx;
+  height: 120rpx;
+  background: url(https://6261-base-code-1300787518.tcb.qcloud.la/19802021474.jpg?sign=5d2f10f5a0fcbfbc3fdbbfcb819bc28f&t=1574843660) no-repeat center top;
+  background-size: 100%;
+  position: absolute;
+  top: 50rpx;
+  right: 50rpx;
+  border-radius: 50%;
 }

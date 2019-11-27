@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "show-block": "/components/showBlock/showBlock",
+    "popup": "/components/popup/popup",
+    "show-img": "/components/showImg/showImg",
+    "message": "/components/message/message",
+    "notice": "/components/notice/notice",
+    "calendar": "plugin://calendar/calendar",
+    "watch": "/components/watch/watch"
+  }
+}

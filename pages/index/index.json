@@ -1,9 +1,6 @@
 {
-  "navigationBarTitleText": "baseCode",
+  "navigationBarTitleText": "个人名片",
   "usingComponents": {
-    "message": "/components/message/message",
-    "notice": "/components/notice/notice",
-    "show-block": "/components/showBlock/showBlock",
-    "calendar": "plugin://calendar/calendar"
+    
   }
 }

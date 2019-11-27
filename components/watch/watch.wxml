@@ -1,0 +1,9 @@
+<!--components/watch/watch.wxml-->
+<view class="watch-container">
+  <text class="watch-time" >{{hour}}:{{minute}}:{{second}}</text>
+  <view class="watch-button">
+    <view bindtap="startInterval" class="button-block" wx:if="{{!counting}}">开始</view>
+    <view bindtap="stopInterval" class="button-block" wx:if="{{counting}}">暂停</view>
+    <view bindtap="clearWatch" class="button-block">重置</view>
+  </view>
+</view>
